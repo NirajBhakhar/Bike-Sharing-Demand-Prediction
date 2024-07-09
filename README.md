@@ -5,7 +5,7 @@ This project aims to predict the demand for bike sharing using machine learning 
 ## Project Overview
 
 ### Abstract
-The project uses multiple regression techniques to predict the hourly demand for bike rentals. We utilized several machine learning models, including Linear Regression, Support Vector Regressor, Random Forest Regressor, and more. The dataset used for this project is the Seoul Bike Sharing Demand dataset from the UCI Machine Learning Repository. The best model achieved an R2 score of 0.93 using the Random Forest Regressor.
+The project uses multiple regression techniques to predict the hourly demand for bike rentals. We utilized several machine learning models, including Linear Regression, Support Vector Regressor, Random Forest Regressor, and more. The dataset used for this project is the [Seoul Bike Sharing Demand dataset](https://archive.ics.uci.edu/dataset/560/seoul+bike+sharing+demand) from the UCI Machine Learning Repository. The best model achieved an R<sup>2</sup> score of 0.93 using the Random Forest Regressor.
 
 ### Key Features
 - Data Analysis and Visualization
@@ -53,9 +53,6 @@ The project uses multiple regression techniques to predict the hourly demand for
 
 5. **Explore the Jupyter notebooks**:
     Navigate to the `notebooks/` directory and open the Jupyter notebooks to explore data analysis, preprocessing, model training, and evaluation steps.
-    ```sh
-    jupyter notebook
-    ```
 
 ### Running Inference
 
@@ -63,14 +60,14 @@ The project uses multiple regression techniques to predict the hourly demand for
     Use the provided inference script to make predictions with the trained model.
     ```sh
     python -m src.inference
-    ```z
+    ```
 
 ## Results
 
 ### Model Evaluation Metrics
-The project evaluated models using various metrics such as Mean Square Error (MSE), Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and R2 Score. The Random Forest Regressor performed the best with an R2 score of 0.925.
+The project evaluated models using various metrics such as Mean Square Error (MSE), Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and R<sup>2</sup> Score. The Random Forest Regressor performed the best with an R<sup>2</sup> score of 0.925.
 
-| Model                  | R2 Score |
+| Model                  | R<sup>2</sup> Score |
 |------------------------|----------|
 | Ridge Regression       | 0.54     |
 | Lasso Regression       | 0.54     |
