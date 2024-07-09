@@ -5,7 +5,7 @@ This project aims to predict the demand for bike sharing using machine learning 
 ## Project Overview
 
 ### Abstract
-The project uses multiple regression techniques to predict the hourly demand for bike rentals. We utilized several machine learning models, including Linear Regression, Support Vector Regressor, Random Forest Regressor, and more. The dataset used for this project is the [Seoul Bike Sharing Demand dataset](https://archive.ics.uci.edu/dataset/560/seoul+bike+sharing+demand) from the UCI Machine Learning Repository. The best model achieved an R<sup>2</sup> score of 0.93 using the Random Forest Regressor.
+The project uses multiple regression techniques to predict the hourly demand for bike rentals. We utilized several machine learning models, including Linear Regression, Support Vector Regressor, Random Forest Regressor, and more. The dataset used for this project is the [Seoul Bike Sharing Demand dataset](https://archive.ics.uci.edu/dataset/560/seoul+bike+sharing+demand) from the UCI Machine Learning Repository. The best model achieved an R<sup>2</sup> score of 0.92 using the Random Forest Regressor.
 
 ### Key Features
 - Data Analysis and Visualization
@@ -65,7 +65,7 @@ The project uses multiple regression techniques to predict the hourly demand for
 ## Results
 
 ### Model Evaluation Metrics
-The project evaluated models using various metrics such as Mean Square Error (MSE), Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and R<sup>2</sup> Score. The Random Forest Regressor performed the best with an R<sup>2</sup> score of 0.925.
+The project evaluated models using various metrics such as Mean Square Error (MSE), Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and R<sup>2</sup> Score. The Random Forest Regressor performed the best with an R<sup>2</sup> score of 0.92.
 
 | Model                  | R<sup>2</sup> Score |
 |------------------------|----------|
@@ -75,7 +75,7 @@ The project evaluated models using various metrics such as Mean Square Error (MS
 | Support Vector Regressor | 0.84   |
 | K Nearest Neighbors    | 0.77     |
 | Decision Tree Regressor| 0.84     |
-| Random Forest Regressor| 0.93     |
+| Random Forest Regressor| 0.92     |
 
 ## Deployment
 
