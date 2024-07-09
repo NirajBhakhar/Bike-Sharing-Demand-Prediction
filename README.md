@@ -59,7 +59,7 @@ The project uses multiple regression techniques to predict the hourly demand for
 6. **Run the inference script**:
     Use the provided inference script to make predictions with the trained model.
     ```sh
-    python -m src.inference
+    python -m /src/inference.py
     ```
 
 ## Results
